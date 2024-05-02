@@ -6,8 +6,8 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
-                imask: resolve(__dirname, 'src/examples/imask/index.html'),
-                maskito: resolve(__dirname, 'src/examples/maskito/index.html'),
+                imask: resolve(__dirname, 'imask/index.html'),
+                maskito: resolve(__dirname, 'maskito/index.html'),
             },
         },
     },
